@@ -25,12 +25,12 @@ def replaceWords(dic_vp_cn, dic_vp_vi, text_input, text_output):
     return text_input, text_output
 
 
-path_na = 'Dictionary/Names.txt'
+path_na = 'dictionary/Names.txt'
 
-path_cpaw = 'Dictionary/ChinesePhienAmWords.txt'
-path_dt = 'Dictionary/DanhTu.txt'
-path_dx = 'Dictionary/DanhXung.txt'
-path_hn = 'Dictionary/HoNguoi.txt'
+path_cpaw = 'dictionary/ChinesePhienAmWords.txt'
+path_dt = 'dictionary/DanhTu.txt'
+path_dx = 'dictionary/DanhXung.txt'
+path_hn = 'dictionary/HoNguoi.txt'
 
 
 dic_na_cn, dic_na_vi = readWords(path_na)
