@@ -19,7 +19,7 @@ else:
 
 
 # Create a NER pipeline
-ner_pipe = pipeline("token-classification", model="JasonYan/bert-base-chinese-stock-ner")
+ner_pipe = pipeline("token-classification", model="JasonYan/bert-base-chinese-stock-ner", device=0)
 
 
 
